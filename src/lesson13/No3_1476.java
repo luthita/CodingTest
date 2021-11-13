@@ -14,15 +14,13 @@ public class No3_1476 {
 		int S = scan.nextInt();
 		int M = scan.nextInt();
 		
-		int count = 0;
-		
+		int year = 0;
 		while(true) {
-			count++;
-			if(count % 15 == E && count % 28 == S && count % 19 == M) {
+			year++;
+			if((year-E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0) {
 				break;
 			}
 		}
-		System.out.println(count);
+		System.out.println(year);
 	}
-
 }

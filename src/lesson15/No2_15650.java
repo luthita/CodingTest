@@ -1,12 +1,10 @@
-package lesson13;
+package lesson15;
 
-// 테트로미노
-public class No5_14500 {
+public class No2_15650 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
 	}
 
 }
